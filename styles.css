@@ -1,0 +1,54 @@
+body {
+  background-color: #E1C5B2;
+  font-family: Tahoma;
+  color: #252627;
+}
+
+#title, 
+#description {
+  text-align: center;
+}
+
+form {
+  background-color: rgba(250, 241, 234, 0.3);
+  padding: 25px;
+  margin: 0 auto;
+  width: 70%;
+}
+
+label {
+  display: block;
+  padding: 5px 0;
+}
+
+input[type="text"],
+[type="email"],
+[type="number"] {
+  margin-top: 8px;
+}
+
+input, select, textarea {
+  padding: 8px;
+  border-radius: 5px;
+  border: 0;
+}
+
+.divider {
+  border-bottom: 3px solid #252627;
+  padding: 10px 0;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.wide {
+  width: 100%;
+}
+
+#submit {
+  display: block;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #252627;
+  color: white;
+  font-size: 18px;
+}
