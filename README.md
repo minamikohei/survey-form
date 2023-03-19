@@ -1,25 +1,24 @@
-# [Survey Form](https://minamikohei.github.io/survey-form/)
+# [アンケートフォーム](https://minamikohei.github.io/survey-form/)
 
-
-One of the certification projects for the (New) Responsive Web Design course at [freeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/). 
+[freeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/) レスポンシブウェブデザインのレスポンシブウェブデザインプロジェクト
 
 ***
 
-User Stories:
+ユーザーストーリー:
 
-1. You should have a page title in an h1 element with an id of title
-2. You should have a short explanation in a p element with an id of description
-3. You should have a form element with an id of survey-form
-4. Inside the form element, you are required to enter your name in an input field that has an id of name and a type of text
-5. Inside the form element, you are required to enter your email in an input field that has an id of email
-6. If you enter an email that is not formatted correctly, you will see an HTML5 validation error
-7. Inside the form, you can enter a number in an input field that has an id of number
-8. If you enter non-numbers in the number input, you will see an HTML5 validation error
-9. If you enter numbers outside the range of the number input, which are defined by the min and max attributes, you will see an HTML5 validation error
-10. For the name, email, and number input fields, you can see corresponding label elements in the form, that describe the purpose of each field with the following ids: id="name-label", id="email-label", and id="number-label"
-11. For the name, email, and number input fields, you can see placeholder text that gives a description or instructions for each field
-12. Inside the form element, you should have a select dropdown element with an id of dropdown and at least two options to choose from
-13. Inside the form element, you can select an option from a group of at least two radio buttons that are grouped using the name attribute
-14. Inside the form element, you can select several fields from a series of checkboxes, each of which must have a value attribute
-15. Inside the form element, you are presented with a textarea for additional comments
-16. Inside the form element, you are presented with a button with id of submit to submit all the inputs
+1. id の値が title に設定されている h1 要素内に、ページタイトルがあります
+2. id の値が description に設定されている p 要素内に、簡単な説明が記載されています
+3. id の値が survey-form に設定されている form 要素が 1 つあります
+4. その form 要素の中では、id の値が name、type の値が text である input 欄への名前の入力が必須となっています
+5. その form 要素の中では、id の値が email である input 欄へのメールアドレスの入力が必須となっています
+6. メールアドレスを不正なフォーマットで入力すると、HTML5 のバリデーションエラーが表示されます
+7. フォームの中で、id の値が number に設定されている input の欄内に数値を入力できます
+8. 数値入力欄は数値でない値を受け付けないように、数値以外の値が入力できないか、HTML5 のバリデーションエラーが表示されるようになっています (ブラウザによって動作が異なります)
+9. min と max 属性で定義した範囲外の数字を入力すると、HTML5 のバリデーションエラーが表示されます
+10. 名前、メールアドレス、数値の入力欄にそれぞれ対応して、各欄の目的を説明する label 要素がフォーム内にあり、それぞれ以下の id が設定されています: id="name-label"、id="email-label"、id="number-label"
+11. 名前、メールアドレス、数値の入力欄には、各欄の説明や指示を示すプレイスホルダーテキストが表示されます
+12. form 要素内には、id の値が dropdown に設定されている select ドロップダウン要素が 1 つあり、選択肢が少なくとも 2 つあります
+13. form 要素内では、name 属性を使用してグループ化した 2 つ以上のラジオボタンのグループから、オプションを 1 つ選択できます
+14. フォーム要素内では、一連のチェックボックスから複数の欄を選択することができ、各チェックボックスには value 属性が設定されています
+15. form 要素内には、追加のコメント用に textarea が用意されています
+16. form 要素内には、すべての入力内容を送信するために、id の値が submit に設定されたボタンが用意されています
